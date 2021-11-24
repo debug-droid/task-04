@@ -1,0 +1,8 @@
+<h1>Aproveite nossas promoções:</h1>
+{{#each produtos}}
+<div>
+    <h3>{{this.title}}</h3>
+    <p>{{this.price}}</p>
+    <p><a href="/product/{{this.id}}">Ver mais</a></p>
+</div>
+{{/each}}
